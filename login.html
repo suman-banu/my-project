@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+<style>
+        
+body{
+    background-color: blueviolet;
+}
+.container {
+    /* margin: 20px; */
+    /* padding: 20px; */
+    width: 800px;
+    position: absolute;
+    left: 37%;
+    margin: 0 auto;
+    top: 50%;
+    /* transform: perspective(10px); */
+    transform: translate(-50%,-50%);
+    display: inline-block;
+}
+
+.box{
+    margin: -32px;
+    width: 400px;
+    height: 500px;
+    display: inline-block;
+    background-color: white;
+    transform: translate(57%,-10%); 
+}
+.image{
+    display: inline-block;
+    transform: translate(50%,0%);
+}
+img{
+    object-fit: cover;
+}
+.input_box input {
+    font-size: 19px;
+    padding: 7px 7px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.input_box{
+    text-align: center;
+}
+input[type=text]{
+    width: 75%;
+}
+input[type=password]{
+    width: 75%;
+}
+
+label {
+   
+    margin-right: 54%;
+    font-size: 22px;
+    background-color: #fff;
+    font-weight: bold;
+     padding: 0px 1px;
+}
+.heading{
+  text-align: center;
+  color: blueviolet;
+  font-size: 25px;
+  font-weight: bold;
+  margin: -7px 10px;
+  padding: 5px 10px;
+}
+p.forget_password {
+    text-align: end;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 37px 0px;
+    padding: 0px 15px;
+    color: blueviolet;
+} 
+label.check {
+    font-size: 19px;
+    margin: 15px;
+    color: blueviolet;
+    padding: 3px;
+    position: relative;
+    top: -60px;
+}
+p.signup_link{
+    text-align: center;
+    font-size: 20px;
+    margin: 3px 6px;
+    padding: 58px 10px;
+
+}
+.submit{
+    text-align: center;
+    margin: -16px 0px;
+}
+button{
+    color: white;
+    background-color: blueviolet;
+    font-size: 22px;
+    margin: -10px 50px;
+    padding: 10px 50px;
+    border-radius: 20px;
+    border: none;
+}
+.box1{
+    color: blueviolet;
+}
+.box2{
+    color: blueviolet;
+    margin-top: 7px;
+}
+        </style>
+</head>
+<body>
+
+   <div class="container">
+    <div class="image">
+        <img src="https://img.freepik.com/premium-photo/woman-working-laptop-cafe_752325-21949.jpg?w=826" alt="" height="500px" width="400px">
+    </div>
+    <div class="box">
+        <form class="form">
+    <div class="heading">
+        <h1>Login</h1>
+    </div>      
+    <div class="input_box">
+        <div class="box1">
+            <label >User Name</label>
+            <input type="text" required>
+        </div>
+        <div class="box2">
+            <label>Password</label>
+            <input type="password" required>  
+        </div>
+        
+    </div>
+    <p class="forget_password"><a href="signup.css"></a>Forget Password?</p>
+        <label class="check">
+         <input type="checkbox" id="checkbox">Remember me</label>
+        <div class="submit">
+        <button type="submit">Login</button>
+    </div>
+        <p class="signup_link">Don't have a account ?<a href="signup.html">Signup</a></p>
+    </div>
+        </form>
+    </div>
+  </div> 
+</body>
+
+</html>

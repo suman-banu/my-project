@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+<style>
+        
+body{
+    background-color: blueviolet;
+}
+.container{
+    /* margin: 20px;
+    padding: 20px; */
+    width: 800px;
+    position: absolute;
+    left: 37%;
+    margin: 0 auto;
+    top: 50%;
+    /* transform: perspective(10px); */
+    transform: translate(-50%,-50%);
+    display: inline-block;
+}
+.box{
+    margin: -32px;
+    width: 400px;
+    height: 530px;
+    display: inline-block;
+    background-color: white;
+    transform: translate(57%,-5%);
+}
+.image{
+    display: inline-block;
+    transform: translate(50%,0%);
+}
+img{
+    object-fit: cover;
+}
+.input_box input {
+    font-size: 19px;
+    padding: 7px 7px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.input_box{
+    text-align: center;
+    margin-bottom: 25px;
+    color: blueviolet;
+}
+input[type=text]{
+    width: 75%;
+}
+input[type=password]{
+    width: 75%;
+}
+input[type=email]{
+    width: 75%;
+}
+
+label {
+   
+    margin-right: 55%;
+    font-size: 22px;
+    background-color: #fff;
+    font-weight: bold;
+    /* padding: 0px 10px; */
+}
+.heading{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin: -15px;
+  padding: 0px;
+  color: blueviolet;
+}
+input#checkbox{
+    position: relative;
+    top: 0px;
+}
+p.forget_password {
+    text-align: end;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    top: 13px;
+    margin: 15px 0px;
+}
+label.check {
+    font-size: 21px;
+    margin: 20px;
+    padding: 3px;
+}
+p.signup_link{
+    text-align: center;
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+
+}
+p.agree{
+    text-align: center;
+    font-size: 18px;
+}
+p.account{
+    font-size: 20px;
+    text-align: center;
+    margin: 15px 10px;
+}
+ .mail{
+    margin-right: 233px;
+} 
+input[type="text"]{
+    margin-bottom: 10px;
+}
+input[type="email"]{
+    margin-bottom: 10px;
+}
+input[type="password"]{
+    margin-bottom: 10px;
+}
+.submit{
+    text-align: center;
+    padding: 7px 10px;
+}
+button{
+    color:white;
+    font-size: 22px;
+    border-radius: 15px;
+    padding: 10px 15px;
+    border: none;
+    background-color: blueviolet;
+}
+        </style>
+</head>
+<body>
+  <div class="container">
+    <div class="image">
+        <img src="https://img.freepik.com/premium-photo/woman-business-suit-is-smiling-looking-directly-camera_99233-47788.jpg?w=740" alt="" height="530px" width="400px">
+    </div>
+    <div class="box">
+        <form class="form">
+    <div class="heading">
+        <h1>Signup</h1>
+    </div>      
+    <div class="input_box">
+        <div>
+            <label >User Name</label>
+            <input type="text" required>
+        </div>
+        <div>
+            <label  class="mail" >Email ID</label>
+            <input type="email" required>
+        </div>
+         <div>
+             <label>Password</label>
+             <input type="password" required>  
+            </div>
+    </div>
+    <p class="agree">By creating this account,i agree to the <a href=#>Terms and conditions</a></p>
+    <div class="submit">
+        <button type="submit">Create Account</button> 
+    </div>
+    <p class="account">Already have an account?<a href="login.html">Login</a> </p>  
+        </form>
+    </div>
+  </div>
+</body>
+
+</html>
